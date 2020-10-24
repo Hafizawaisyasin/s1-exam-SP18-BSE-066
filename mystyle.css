@@ -283,3 +283,115 @@ div > strong {
 .rite-1 {
 	padding-left: 20px;
 }
+.corona {
+	padding-top: 20px;
+}
+.pt-sm {
+	flex-wrap: wrap;
+	display: inline-block !important;
+}
+.icons {
+	flex-wrap: wrap !important;
+	display: inline-block !important;
+}
+
+div > a {
+	font-size: 12px;
+}
+
+/*start blog post*/
+
+.w3l-post-grids-6 {
+	/* Zoom In css starts here */
+	/* Zoom In css ends here */
+}
+
+.w3l-post-grids-6 ul.blog-info-list {
+	display: flex;
+}
+
+.w3l-post-grids-6 .blog-thumbhny-caption {
+	padding: 30px;
+	position: relative;
+	background: #f4f4f4;
+	text-overflow: ellipsis;
+	border-radius: 0px 0px 6px 6px;
+	-webkit-border-radius: 0px 0px 6px 6px;
+	-o-border-radius: 0px 0px 6px 6px;
+	-moz-border-radius: 0px 0px 6px 6px;
+}
+
+.w3l-post-grids-6 figure {
+	overflow: hidden;
+	margin: 0px;
+	border-radius: 6px 6px 0px 0px;
+}
+
+.w3l-post-grids-6 .grids5-info h4 a {
+	font-size: 18px;
+	line-height: 26px;
+	color: #232020;
+	margin-top: 10px;
+	display: block;
+	font-weight: 600;
+}
+
+.w3l-post-grids-6 ul.blog-info-list li {
+	font-size: 14px;
+	color: #6b778d;
+	text-transform: capitalize;
+	list-style: none;
+}
+
+.w3l-post-grids-6 li.date-post {
+	border-left: 1px solid #ddd;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.w3l-post-grids-6 ul.blog-info-list li a {
+	color: #3a3535;
+}
+
+.w3l-post-grids-6 .column-img img {
+	display: block;
+	width: 100%;
+}
+
+.w3l-post-grids-6 .column-img#zoomIn img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+	border-radius: 6px 6px 0px 0px;
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-o-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius: 6px 6px 0px 0px;
+}
+
+.w3l-post-grids-6 .column-img#zoomIn:hover img {
+	transform: scale(1.3);
+	border-radius: 6px 6px 0px 0px;
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-o-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius: 6px 6px 0px 0px;
+}
+
+.w3l-post-grids-6 .grids5-info a:hover {
+	color: #ff7315;
+}
+
+@media all and (max-width: 1280px) {
+	.w3l-post-grids-6 .blog-thumbhny-caption {
+		padding: 20px;
+	}
+}
+
+@media all and (max-width: 736px) {
+	.w3l-post-grids-6 .grids5-info.column-img {
+		margin-bottom: 2em;
+	}
+}
+
+/*end  blog post*/
+.nav-item {
+	padding-right: 7px !important ;
+}
